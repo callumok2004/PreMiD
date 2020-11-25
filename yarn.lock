@@ -2455,30 +2455,30 @@ sprintf-js@^1.1.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
   integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
 
-ssh2-sftp-client@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/ssh2-sftp-client/-/ssh2-sftp-client-5.0.2.tgz#ab40e102e4deabc31182ba5c3f71d24417028b98"
-  integrity sha512-uQdeR9TOvuYsegswqTCDy0xEHjGiu570ERKL+s2ddDZzoqnk7du7o1kbDVXawcmvGRrbbpNKAUfAJKQ8HvbFsA==
+ssh2-sftp-client@5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/ssh2-sftp-client/-/ssh2-sftp-client-5.3.2.tgz#a7f4383b96468fde3ee8fe1b7f1db352c6160946"
+  integrity sha512-YD38WQKleuapAZyvqRJq7PN8pC6GnzWdWcnZN4vsPXMHtZpjcg/ipBcFGtDsC5rkHp5qXgRu56WPcDUkM87FiA==
   dependencies:
     concat-stream "^2.0.0"
     retry "^0.12.0"
-    ssh2 "^0.8.7"
+    ssh2 "^0.8.9"
 
-ssh2-streams@~0.4.8:
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/ssh2-streams/-/ssh2-streams-0.4.8.tgz#2ff92df2e0063fef86cf934eaea197967deda715"
-  integrity sha512-auxXfgYySz2vYw7TMU7PK7vFI7EPvhvTH8/tZPgGaWocK4p/vwCMiV3icz9AEkb0R40kOKZtFtqYIxDJyJiytw==
+ssh2-streams@~0.4.10:
+  version "0.4.10"
+  resolved "https://registry.yarnpkg.com/ssh2-streams/-/ssh2-streams-0.4.10.tgz#48ef7e8a0e39d8f2921c30521d56dacb31d23a34"
+  integrity sha512-8pnlMjvnIZJvmTzUIIA5nT4jr2ZWNNVHwyXfMGdRJbug9TpI3kd99ffglgfSWqujVv/0gxwMsDn9j9RVst8yhQ==
   dependencies:
     asn1 "~0.2.0"
     bcrypt-pbkdf "^1.0.2"
     streamsearch "~0.1.2"
 
-ssh2@^0.8.7:
-  version "0.8.7"
-  resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-0.8.7.tgz#2dc15206f493010b98027201cf399b90bab79c89"
-  integrity sha512-/u1BO12kb0lDVxJXejWB9pxyF3/ncgRqI9vPCZuPzo05pdNDzqUeQRavScwSPsfMGK+5H/VRqp1IierIx0Bcxw==
+ssh2@^0.8.9:
+  version "0.8.9"
+  resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-0.8.9.tgz#54da3a6c4ba3daf0d8477a538a481326091815f3"
+  integrity sha512-GmoNPxWDMkVpMFa9LVVzQZHF6EW3WKmBwL+4/GeILf2hFmix5Isxm7Amamo8o7bHiU0tC+wXsGcUXOxp8ChPaw==
   dependencies:
-    ssh2-streams "~0.4.8"
+    ssh2-streams "~0.4.10"
 
 streamsearch@~0.1.2:
   version "0.1.2"
